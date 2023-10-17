@@ -1,0 +1,56 @@
+/* Estilize a lista de Pokémon (um abaixo do outro) */
+.pokemon-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .pokemon-item {
+    background-color: #ee9191;
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .pokemon-item:hover {
+    background-color: #e90000;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .pagination-button:hover {
+    background-color: #235a97;
+  }
+  
+  
+  div {
+    align-items: center; 
+    width: 100%;
+    max-width: 60%; 
+    margin: 0 auto;
+  }
+  
